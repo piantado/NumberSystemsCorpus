@@ -1,3 +1,4 @@
+"""
 iso6393 = "dim"
 sourcecite = "\\citealt{s:Fleming:Dime}"
 
@@ -42,13 +43,13 @@ f[60] = "tamta", f[6]
 f[70] = "tamta", f[7]
 f[80] = "tamte", f[8]+"ish"
 f[90] = "tamta", f[9]+"ish"
-f[10+r] = f[10],f[r]
-f[20+r] = f[20],f[r]
-f[30+r] = f[30], "afa", f[r]
-f[40+r] = f[40], "afi", f[r]
-f[50+r] = f[50], "afu", f[r]
-f[60+r] = f[60], "afo", f[r]
-f[70+r] = f[70], "afa", f[r]
-f[80+r] = f[80], "afo", f[r]
-f[90+r] = f[90], "afo", f[r]
+f[1*10+r] = f[10],f[r]
+f[1*20+r] = f[20],f[r]
+f[1*30+r] = f[30], "afa", f[r]
+f[1*40+r] = f[40], "afi", f[r]
+f[1*50+r] = f[50], "afu", f[r]
+f[1*60+r] = f[60], "afo", f[r]
+f[1*70+r] = f[70], "afa", f[r]
+f[1*80+r] = f[80], "afo", f[r]
+f[1*90+r] = f[90], "afo", f[r]
 f[100] = "s'eett"
