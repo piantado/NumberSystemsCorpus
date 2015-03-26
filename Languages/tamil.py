@@ -19,5 +19,5 @@ f[8] = "ettu"
 f[9] = "ompadu"
 ##four different forms given #padin, pan-n, patt, padi. padin most common##
 f[10] = "padin"
-f[10+r] = f[10]+f[r]
+f[1*10+r] = f[10]+f[r]
 
