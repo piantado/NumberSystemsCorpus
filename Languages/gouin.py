@@ -1,3 +1,4 @@
+"""
 iso6393 = "cme"
 sourcecite = "\\citealt[110-111]{ew:Tauxier:Gouin-Tourouka}"
 
@@ -26,10 +27,10 @@ f[3] = "nsie"
 f[4] = "nain"
 f[5] = "n'di"
 f[6] = "nedi"
-f[5+r] = f[5]+f[r]
+f[1*5+r] = f[5]+f[r]
 f[10] = "kiunkilo"
 f[11] = "n'diele-kou-di"
-f[10+r] = "n'diele" + f[r]
+f[1*10+r] = "n'diele" + f[r]
 f[20] = "komore"
 f[30] = "komore", "ntielo"
 f[40] = "komovinnbain"
@@ -38,5 +39,5 @@ f[60] = "komofinn-asie"
 f[70] = f[60] + f[10]
 f[80] = "komofina-nain"
 f[90] = "komofina", f[10]
-f[k*10+r] = f[k*10], "ou", f[r]
+f[p*10+r] = f[p*10], "ou", f[r]
 f[100] = "komofinan", "di"
