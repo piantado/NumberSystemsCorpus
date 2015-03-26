@@ -41,5 +41,3 @@ f[1*100+r] = "2zow1se" , f[r]
 f[p*100+r] = f[p] , "2zow1se" , f[r]
 f[1*1000+r] = "2r\=o2za1se" , f[r]
 f[p*1000+r] = f[p] , "2r\=o2za1se" , f[r]
-
-
