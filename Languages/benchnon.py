@@ -1,3 +1,4 @@
+"""
 iso6393 = "bcq"
 sourcecite = "\\citealt{s:Breeze:Gimira}"
 
@@ -32,6 +33,6 @@ f[7] = "napm"
 f[8] = "nyartn"
 f[9] = "irstn"
 f[10] = "tam"
-f[10+r] = f[10]+"a"+ f[r]+"a"
-f[k*10] = f[k]+f[10]
-f[k*10+r] = f[k]+f[10]+"a"+f[r]+"a"
+f[1*10+r] = f[10]+"a"+ f[r]+"a"
+f[p*10+0] = f[p]+f[10]
+f[p*10+r] = f[p]+f[10]+"a"+f[r]+"a"
