@@ -37,5 +37,3 @@ f[p*12+r] = "bakuru" , "ba"+f[p] , {"n\'a" , f[r]}
 f[144] = "n\`ak\'a"
 f[1*144+r] = "n\`ak\'a" , {"n\'a" , f[r]}
 f[p*144+r] = "bin\`ak\'a" , "bi"+f[p] , {"n\'a" , f[r]}
-
-
